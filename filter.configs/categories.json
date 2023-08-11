@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "name": "clean"
+    },
+    {
+      "name": "medium"
+    },
+    {
+      "name": "dirty"
+    }
+  ],
+  "mapping": {
+    "clean": [
+      "ECB-v1.en-fr",
+      "ECDC-v2016-03-16.en-fr",
+      "ELRA-W0138-v1.en-fr",
+      "ELRA-W0149-v1.en-fr",
+      "ELRA-W0201-v1.en-fr",
+      "ELRA-W0301-v1.en-fr",
+      "ELRA-W0305-v1.en-fr",
+      "ELRA-W0307-v1.en-fr",
+      "ELRA-W0308-v1.en-fr",
+      "ELRC-1075-EUIPO_law-v1.en-fr",
+      "ELRC-1100-EUIPO_list-v1.en-fr",
+      "ELRC-1118-CORDIS_News-v1.en-fr",
+      "ELRC-1122-CORDIS_Results_Brief-v1.en-fr",
+      "ELRC-2018-EUIPO_2017-v1.en-fr",
+      "ELRC-2410-Portal_oficial_turis-v1.en-fr",
+      "ELRC-2480-Estatuto_dos_Deputad-v1.en-fr",
+      "EUbookshop-v2.en-fr",
+      "EuroPat-v3.en-fr",
+      "Europarl-v8.en-fr",
+      "GlobalVoices-v2018q4.en-fr",
+      "LinguaTools-WikiTitles-v2014.en-fr",
+      "MultiUN-v1.en-fr",
+      "NeuLab-TedTalks-v1.en-fr",
+      "News-Commentary-v9.1.en-fr",
+      "OpenOffice-v2.en-fr",
+      "QED-v2.0a.en-fr",
+      "RF-v1.en-fr",
+      "TED2013-v1.1.en-fr",
+      "TED2020-v1.en-fr",
+      "Tatoeba-v2023-04-12.en-fr",
+      "TildeMODEL-v2018.en-fr",
+      "UNPC-v20090831.en-fr",
+      "WMT-News-v2019.en-fr",
+      "XLEnt-v1.2.en-fr"
+    ],
+    "dirty": [
+      "CCAligned-v1.en-fr",
+      "CCMatrix-v1.en-fr",
+      "DGT-v4.en-fr",
+      "ELITR-ECA-v1.en-fr",
+      "GNOME-v1.en-fr",
+      "JRC-Acquis-v3.0.en-fr",
+      "KDE4-v2.en-fr",
+      "LinguaTools-WikiTitles-v2014.en-fr",
+      "MultiCCAligned-v1.en-fr",
+      "MultiParaCrawl-v7.1.en-fr",
+      "OpenSubtitles-v2018.en-fr",
+      "PHP-v1.en-fr",
+      "ParaCrawl-v9.en-fr",
+      "Ubuntu-v14.10.en-fr",
+      "WikiMatrix-v1.en-fr",
+      "Wikipedia-v1.0.en-fr",
+      "XLEnt-v1.2.en-fr",
+      "bible-uedin-v1.en-fr",
+      "wikimedia-v20230407.en-fr"
+    ],
+    "medium": [
+      "Books-v1.en-fr",
+      "ECB-v1.en-fr",
+      "ELRA-W0138-v1.en-fr",
+      "ELRA-W0309-v1.en-fr",
+      "EMEA-v3.en-fr",
+      "EUconst-v1.en-fr",
+      "EuroPat-v3.en-fr",
+      "LinguaTools-WikiTitles-v2014.en-fr",
+      "Salome-v1.en-fr",
+      "Tanzil-v1.en-fr",
+      "XLEnt-v1.2.en-fr",
+      "giga-fren-v2.en-fr",
+      "infopankki-v1.en-fr",
+      "tico-19-v2020-10-28.en-fr"
+    ]
+  }
+}
