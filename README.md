@@ -31,3 +31,5 @@ cat Books-v1.en-fr.filters.json.gz ELRA-W0309-v1.en-fr.filters.json.gz EUconst-v
 cat CCMatrix-v1.en-fr ELITR-ECA-v1.en-fr JRC-Acquis-v3.0.en-fr MultiCCAligned-v1.en-fr PHP-v1.en-fr WikiMatrix-v1.en-fr wikimedia-v20230407.en-fr  zbible-uedin-v1.en-fr DGT-v4.en-fr GNOME-v1.en-fr KDE4-v2.en-fr OpenSubtitles-v2018.en-fr Ubuntu-v14.10.en-fr Wikipedia-v1.0.en-fr zCCAligned-v1.en-frMulti MultiParaCrawl-v7.1.en-fr.filters.json.gz ParaCrawl-v9.en-fr.filters.json.gz
 ```
 
+# Unused datasets
+`XLEnt-v1.2.en-fr` and `LinguaTools-WikiTitles-v2014.en-fr`
