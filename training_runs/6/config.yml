@@ -1,8 +1,8 @@
 datasets:
-  clean: /mnt/startiger0/nbogoych/enfr/dedup/clean.gz # 2.4 GB
-  cleanish: /mnt/startiger0/nbogoych/enfr/dedup/clean.med.gz # 1.3 GB
-  medium: /mnt/startiger0/nbogoych/enfr/dedup/dirty.gz # 1.8 GB
-  dirty: /mnt/startiger0/nbogoych/enfr/dedup/medium.gz # 33 GB
+  clean: /mnt/startiger0/nbogoych/enfr/dedup_fren/clean.gz # 2.4 GB
+  cleanish: /mnt/startiger0/nbogoych/enfr/dedup_fren/clean.med.gz # 1.3 GB
+  medium: /mnt/startiger0/nbogoych/enfr/dedup_fren/dirty.gz # 1.8 GB
+  dirty: /mnt/startiger0/nbogoych/enfr/dedup_fren/medium.gz # 33 GB
 
 stages:
   - start
