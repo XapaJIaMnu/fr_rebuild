@@ -17,8 +17,8 @@ sentencepiece-alphas: 0.1 # https://github.com/google/sentencepiece SPM sampling
 # Paths and valid options
 model: model.npz
 vocabs:
-    - vocab.NOUNICODE.spm
-    - vocab.NOUNICODE.spm
+    - vocab.UNICODE.spm
+    - vocab.UNICODE.spm
 log: train.log
 
 valid-log: valid.log
