@@ -14,6 +14,8 @@ Key files locations:
 ## FREN location
 `/mnt/startiger0/nbogoych/enfr/dedup_fren`
 Swap command: `pigz -dc ../dedup/clean.gz | awk -F $'\t' '{print $2 "\t" $1}' OFS=$'\t' | pigz > clean.gz`
+## Aligned location
+`/mnt/startiger0/nbogoych/enfr/dedup_fren_with_align`
 
 # Dataset makeup
 ## Clean
