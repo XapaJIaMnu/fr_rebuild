@@ -1,2 +1,2 @@
 # Test sets
-Here we will store various different corrupted test sets to test how our methods improve translation quality in the real world
+Here we will store various different corrupted test sets to test how our methods improve translation quality in the real world. It's actually newstest15, newstest16 doesn't exist for French...
