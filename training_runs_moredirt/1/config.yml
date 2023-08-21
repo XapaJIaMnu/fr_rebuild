@@ -17,10 +17,10 @@ start:
   - until clean 1 # Until two epochs of clean
 
 mid:
-  - clean 0.35
-  - cleanish 0.15
-  - medium 0.1
-  - dirty 0.4
+  - clean 0.25
+  - cleanish 0.1
+  - medium 0.05
+  - dirty 0.6
   - until dirty 1
 
 end:
@@ -30,15 +30,8 @@ end:
   - dirty 0.3
   - until dirty inf
 
-modifiers:
-  - UpperCase: 0.05 # Apply uppercase randomly to 5% of sentences. See below
-  - TitleCase: 0.05
-  - Typos: 0.05
-  - Tags: 0.005
-    augment: 1
-  - Noise: 0.0005
-    min_word_legnth: 2 # Minumum lenght of each fake word, defaults is 2 if left blank
-    max_word_length: 5 # Maximum lenght of each fake word, defaults is 5 if left blank
-    max_words: 4       # Maximu number of fake words, default is 4 if left blank
+#modifiers:
+#- UpperCase: 0.05 # Apply uppercase randomly to 5% of sentences. See below
+#- TitleCase: 0.05
 
 seed: 1111

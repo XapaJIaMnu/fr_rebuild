@@ -17,10 +17,10 @@ start:
   - until clean 1 # Until two epochs of clean
 
 mid:
-  - clean 0.35
-  - cleanish 0.15
-  - medium 0.1
-  - dirty 0.4
+  - clean 0.25
+  - cleanish 0.1
+  - medium 0.05
+  - dirty 0.6
   - until dirty 1
 
 end:

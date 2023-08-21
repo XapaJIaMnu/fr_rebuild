@@ -1,0 +1,43 @@
+# transformer-big configuration
+dim-vocabs: [32000, 32000]
+type: transformer
+#task: transformer-big
+task: transformer-big
+output-omit-bias: true
+lr-report: true
+
+# Training type TSV
+tsv: true # Tsv input
+#no-shuffle: true
+shuffle: data
+# SPM settings
+#allow-special: true #  "Allow special symbols to appear in output, e.g. for SentencePiece with byte-fallback do not suppress the newline symbol" For decoding
+#sentencepiece-alphas: 0.1 # https://github.com/google/sentencepiece SPM sampling
+
+# Paths and valid options
+model: model.npz
+vocabs:
+    - vocab.NOUNICODE.spm
+    - vocab.NOUNICODE.spm
+log: train.log
+
+valid-log: valid.log
+valid-translation-output: output.translation.en
+valid-sets: newstest16.fren
+valid-metrics:
+    - chrf
+    - bleu
+    - ce-mean-words
+valid-freq: 3000
+
+# Training options
+workspace: 32000
+optimizer-delay: 0.5
+keep-best: true
+overwrite: true
+# no-restore-corpus: true
+# valid-reset-all: true
+# valid-reset-stalled: true
+check-gradient-nan: true
+# Running options
+seed: 1111
