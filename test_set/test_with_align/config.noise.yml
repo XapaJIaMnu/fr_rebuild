@@ -1,0 +1,15 @@
+datasets:
+  clean: /home/dheart/uni_stuff/postdoc/fr_rebuild/test_set/test_with_align/newstest15.align.fren
+
+stages:
+  - start
+
+start:
+  - clean 1
+  - until clean 1
+
+modifiers:
+  - Tags: 0.1
+    augment: 1
+
+seed: 1111

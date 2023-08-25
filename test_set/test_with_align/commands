@@ -1,0 +1,2 @@
+opustrainer-train -b 1 --no-shuffle --sync -c config.typo.yml cat > ../typo_src/newstest15.fren 
+opustrainer-train -b 1 --no-shuffle --sync -c config.noise.yml cat > ../noise_src_trg/newstest15.fren
