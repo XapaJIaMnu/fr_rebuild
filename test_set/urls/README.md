@@ -17,3 +17,11 @@ We run bicleaner-ai on the TSV output, and write a fourth column containing the 
 
 Finally, we run the scored TSV through a filter that selects bicleaner-ai scores above 0.8.
 We maintain a list of the base64-encoded URLs passing this filter, and use it to omit URL-duplicates.
+
+Urls only produced with:
+```bash
+grep -Eho "https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-\w\d()@:%’_\+.~#?&//=,]*)" paracrawl.urls.v2.en > paracrawl.urls.only.v2.en
+```
+The reason why there are more lines is because there are multiple urls in some lines
+
+
