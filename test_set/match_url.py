@@ -19,4 +19,4 @@ with open(sys.argv[1], 'r', encoding='utf-8') as ref:
                     WRONG = WRONG+1
 print("Correct:", CORRECT)
 print("WRONG:", WRONG)
-print("Percentage CORRECT:", CORRECT+WRONG/CORRECT)
+print("Percentage CORRECT:", CORRECT/(CORRECT+WRONG))
