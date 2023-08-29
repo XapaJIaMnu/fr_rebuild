@@ -9,7 +9,7 @@ start:
   - until clean 1
 
 modifiers:
-  - Tags: 0.1
+  - Tags: 0.2
     augment: 1
 
 seed: 1111
